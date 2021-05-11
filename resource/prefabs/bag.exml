@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="bag" width="500" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bagBg" width="500" height="516" x="0" y="0" source="bagBg_png" anchorOffsetY="0"/>
+	<e:Label id="bagTitle" text="背包" x="137.5" y="17" anchorOffsetX="0" width="217" verticalAlign="middle" textAlign="center" anchorOffsetY="0" height="52" size="40" textColor="0xdd9f56"/>
+	<e:Button id="closeBtn" label="" x="423" y="17" width="60" height="60">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="close_png" source.down="close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller width="496" height="410" x="2" y="88.5" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="bagItemList">
+			<e:layout>
+				<e:TileLayout orientation="rows" horizontalGap="10" verticalGap="5" horizontalAlign="center" verticalAlign="middle" rowHeight="110" columnWidth="130" requestedColumnCount="3" paddingLeft="5" paddingRight="5" paddingTop="5" paddingBottom="5" requestedRowCount="20"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

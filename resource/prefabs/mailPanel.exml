@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mainPanel" width="360" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" width="358" height="599" x="1" y="-2" anchorOffsetX="0" anchorOffsetY="0" source="mailBg_png"/>
+	<e:Image id="mailItemBg" width="345" height="98" x="7.5" y="70" anchorOffsetX="0" anchorOffsetY="0" source="mailItemBg_png"/>
+	<e:Image id="mailItemImage" width="82" height="80" x="19" y="79" anchorOffsetX="0" anchorOffsetY="0" source="picture1_png"/>
+	<e:Image id="closeBtn" source="close_png" x="304" y="5"/>
+	<e:Label id="mailItemTxt" text="利路修在旅途中给你寄回了照片哦" x="118" y="83.5" anchorOffsetX="0" width="220" anchorOffsetY="0" height="72" verticalAlign="middle" textAlign="left" size="25" textColor="0x17a577"/>
+</e:Skin>

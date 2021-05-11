@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="album" width="550" height="700" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" width="550" height="700" x="0" y="0" source="albumBg_png"/>
+	<e:Scroller width="478" height="639" x="59.3" y="17.87" anchorOffsetX="25.3" anchorOffsetY="-13.13">
+		<e:Group anchorOffsetX="0" width="479" anchorOffsetY="0" height="637">
+			<e:List id="pictureList" width="476" height="629" y="2" anchorOffsetX="0" anchorOffsetY="0" x="3">
+				<e:layout>
+					<e:TileLayout horizontalAlign="justify" verticalAlign="justify" horizontalGap="20" verticalGap="20" requestedRowCount="100" requestedColumnCount="3" rowHeight="150" columnWidth="150"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="closeBtn" width="45" height="40" x="505" y="0" anchorOffsetX="0" anchorOffsetY="0" source="close_png"/>
+</e:Skin>

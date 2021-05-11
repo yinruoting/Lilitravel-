@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="readyPanel" width="400" height="371" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" width="227" height="370" x="0" y="-3" anchorOffsetY="0" anchorOffsetX="0" source="readyPanelBg_png"/>
+	<e:Label id="des" text="添加好下列物品，利路修就可以愉快的去旅行了呢" x="14.5" y="24" anchorOffsetX="0" width="185" textAlign="left" size="20" textColor="0x070707"/>
+	<e:Image id="closeBtn" width="30" height="35" x="197" y="1" source="close_png" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="foodFrame" source="readyPanelFood_png" x="13" y="155" anchorOffsetY="0" height="119" anchorOffsetX="0" width="96"/>
+	<e:Image id="protectFrame" source="readyPanelProtect_png" x="113.5" y="155.5" anchorOffsetX="0" width="105" anchorOffsetY="0" height="119"/>
+	<e:Image id="foodImage" width="74" height="79" x="25" y="182.5" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Image id="protectImage" width="69" height="81" x="131" y="183.5" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Image id="readyBtn" width="90" height="40" x="64.5" y="295" source="readyBtn_png"/>
+	<e:Image id="itemBg" width="148" height="345" x="243" y="10" source="readyPanelBg_png" anchorOffsetX="0"/>
+	<e:Scroller id="itemScroller" width="137" height="299" x="249" y="36" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group anchorOffsetY="0" height="319" anchorOffsetX="0" width="129" x="6" y="0">
+			<e:List id="itemList" width="132" height="289" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+				<e:layout>
+					<e:VerticalLayout gap="30" horizontalAlign="justify" verticalAlign="middle"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

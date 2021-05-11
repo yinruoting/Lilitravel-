@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="shopItem" width="360" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" left="0" bottom="0" anchorOffsetX="0" top="0" right="0" source="shopBg_png"/>
+	<e:Image id="item" width="100" bottom="0" anchorOffsetX="0" top="0" left="0" source="{data.res}"/>
+	<e:Label id="foodName" text="{data.name}" top="0" bottom="50" verticalAlign="middle" size="23" width="151" x="107" anchorOffsetX="0" textAlign="center"/>
+	<e:Label id="price" text="{data.price}" bottom="0" verticalAlign="middle" size="25" height="50" width="148" x="112" anchorOffsetX="0" textAlign="center"/>
+	<e:Button id="buyBtn" label="购买" x="258" y="0" anchorOffsetY="0" height="91" anchorOffsetX="0" width="114">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_up_png" source.down="button_down_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="bagGrid" width="130" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="itemBg" width="130" height="100" x="0" y="0" source="bagGridBg_png"/>
+	<e:Image id="itemBtn" width="70" height="70" x="30" y="20" source="{data.res}"/>
+	<e:Label id="itemNum" text="{data.num}" x="4" y="64" anchorOffsetX="0" width="74" anchorOffsetY="0" height="26"/>
+	<e:Label id="itemName" x="0" y="3" anchorOffsetX="0" width="130" anchorOffsetY="0" height="26" text="{data.name}" size="19" textAlign="center"/>
+</e:Skin>
